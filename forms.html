@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/forms.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset class=shortItself>
+            <legend>Коротко о себе</legend>
+            <p><label>Имя:<input type='text' name="userName" placeholder='Enter your name..' required></label></p>  
+            <p><label>Фамилия:<input type='text' name="userSurname" placeholder='Enter your surname...' required></label></p>   
+
+            <label><span class='bold'>Ваш пол:</span>
+
+            <input type='radio' name=sex value='male' checked >Мужской</label>
+            <label><input type='radio' name=sex value='female'> Женский</label><br>
+
+            <p><label class='bold'>Возраст: <input type='number' name="userAge" placeholder='Enter your age..' required> лет</label></p>
+
+        </fieldset><br>
+                
+        <fieldset class='detailItself'>
+            <legend>Подробнее о себе</legend>
+
+            <label><input type='radio' name=young value='male' checked> Молодой человек</label><br>
+            <label><input type='radio' name=young value='female'> Девушка</label><br>
+                  
+            <label><input type='number' name="userBirthday" placeholder='DD.MM.YYYY'> Дата рождения</label><br>
+            <label><input type='text' name="userFamily"> Семейное положение</label><br>
+            <label><input type='text' name="userSocialStatus"> Социальний статус</label><br>
+            <label><input type='text' name="userResidence" > Местожительства</label><br><br>
+                
+            <p>Что вы обычно делаете на выходных:</p>
+           
+            <input id='sleeping' type='checkbox' name='weekends' checked >
+            <label for='sleeping'> Сплю</label><br>
+            <input id='walking' type='checkbox' name='weekends' >
+            <label for='walking'> Гуляю с друзьями</label><br>
+            <input id='fishing' type='checkbox' name='weekends' >
+            <label for='fishing'> Ходжу на рыбалку</label><br>               
+            <input id='playing' type='checkbox' name='weekends' >
+            <label for='playing'> Играю в игры</label><br/>
+              
+            <p><label for='forms'>Рассказать о формах в книге, посвященной HTML:</label></p>
+                <select id='forms' name='formsHtml'>
+                    <option value='form1'>First form</option>
+                    <option value='form2'>Second form</option>
+                    <option value='form3'>Third form</option>
+                    <option value='form4'>Fourth form</option>
+                </select><br>
+                            
+            <p>Сколько книг вы прочитали за свою жизнь:</p>
+            <label><input type='radio' name=quantity value='booksLess10' > 0 - 10</label><br>
+            <label><input type='radio' name=quantity value='booksLess20' > 11 - 20</label><br>
+            <label><input type='radio' name=quantity value='booksLess50' > 21 - 50</label><br>
+            <label><input type='radio' name=quantity value='booksMore50' > 50+</label><br>
+                     
+            <p><label for='comment-field'>Ваши коментарии:</label></p>
+            <textarea rows='5' id='comment-field' name='comments' placeholder ='Enter something..'></textarea><br>
+                   
+            <label for='position'></label>
+                <select id='position' multiple size='3' name='menu'>
+                    <option value='month'>Первая позиция</option>
+                    <option value='month' selected>Вторая позиция</option>
+                    <option value='month'>Третья позиция</option>
+                </select><br>  
+                
+        </fieldset><br>
+            
+        <fieldset class='lastItself' >
+
+            <legend>И в заключении</legend>
+            
+            <p><input type='text' name="userName" placeholder='Это поле введено для вас'></p>
+                    
+            <label class='bold'>Email<br>
+                   <input type='email' name="email" placeholder="name@domain.com" required></label>
+            
+            <p>Хотите подписаться на самую модную рассылку спама?</p>
+            <p class='italic'>Выберите категории</p>
+            <input id='equipment' type='checkbox' name='subscribe' >
+            <label for='equipment'> Оборудование</label><br>
+            <input id='cooking' type='checkbox' name='subscribe' >
+            <label for='cooking'> Как приготовить обеды</label><br>
+            <input id='fool' type='checkbox' name='subscribe' >
+            <label for='fool'> Заработай миллион за два дня!</label><br> 
+                   
+            <p>Насколько сложная задача:</p>
+                   
+            <label><input type='radio' name=difficult value='easy' checked> Совсем нет</label><br>
+            <label><input type='radio' name=difficult value='so-so' > Так себе</label><br>
+            <label><input type='radio' name=difficult value='hard' > Еле справились</label><br>
+                              
+        </fieldset>
+                
+        <label><input type="submit" value="Отправить"></label>
+                          
+    </form>
+</body>
+</html>

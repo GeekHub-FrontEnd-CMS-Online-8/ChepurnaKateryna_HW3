@@ -1,0 +1,61 @@
+body{
+    font-family:'Arial', serif, sans-serif;
+    font-size: 
+}
+.first-table {
+    width: 1100px;
+    border-collapse: separate; 
+    border-spacing: 3px;
+  border: 1.5px solid lightgray;
+  
+  border-right: 1.5px solid black;
+  border-bottom: 1.5px solid black;
+}
+
+.first-table th, 
+.first-table td{
+  padding: 5px;
+  border: 1.5px solid lightgray;
+  border-top: 1.5px solid black;
+  border-left: 1.5px solid black;
+}
+
+.second-table {
+  width: 700px;
+  margin-left: 200px;
+  margin-top: 30px;
+  border-spacing: 3px;
+  border-collapse: separate;  
+  border: 1.5px solid lightgray;
+  border-right: 1.5px solid black;
+  border-bottom: 1.5px solid black;
+}
+
+.second-table th, 
+.second-table td{
+    
+  padding: 10px;
+  border: 1.5px solid lightgray;
+  border-top: 1.5px solid black;
+  border-left: 1.5px solid black;
+}
+   
+.third-table {
+  width: 700px;
+  margin-left: 200px;
+  margin-top: 30px;
+  border-collapse: collapse;   
+  border: 3px ridge lightgray;
+
+}
+
+.third-table th,
+.third-table td{
+  text-align: left;
+  border: 3px ridge lightgray;
+  padding: 10px;
+ 
+}
+.third-table td{
+    vertical-align: top;
+}

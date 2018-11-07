@@ -1,0 +1,45 @@
+body{
+
+    width: 750px;
+    margin-top: 1px;
+ }
+ fieldset{
+     border: 2px solid black;
+     border-radius: 8px;
+     background-color: #ffffff;
+    
+    
+ }
+ legend {
+     font-size: 20px;
+     font-weight: bold;
+     border: 2px solid gray;
+     border-radius: 4px;
+     background-color: lightgray;
+     
+ }
+ input[type=submit] {
+    font-weight: bold;
+     margin-top: 10px;
+     margin-bottom: 20px;
+     background-color: lightgray;
+     padding: 7px 20px;
+     border: 1px solid black;
+     border-radius: 4px;
+     cursor: pointer;
+     float: right;
+    }
+
+input, textarea, option{
+     border: 1px solid gray;
+     border-radius: 4px;
+        
+    }
+p, .bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+    font-weight: normal;
+}
